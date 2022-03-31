@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="db9fc54b-fe1d-41ce-8be2-72b45384243e" extendedConfigurationObject="0d2702f1-b0ef-44c0-8213-7726790505ce">
+  <producedTypes>
+    <objectType typeId="d548e974-e6bf-49f8-96de-c4b3fc7eeff1" valueTypeId="bf1e8a96-71b3-4c49-9a30-93fec5ca5182"/>
+    <managerType typeId="6e0bd2aa-660b-4a8b-8644-fbda54ea6d09" valueTypeId="87d1f6be-9212-4670-a294-f565c2a7ec20"/>
+  </producedTypes>
+  <name>ПомощникЗачетаОплат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <commands uuid="6e2c9279-661a-41be-b1e2-11599bbe294e" extendedConfigurationObject="2e8bc202-b82e-4381-ad7d-9932c36b78b2">
+    <name>ЗачетОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormCommandBarImportant</group>
+  </commands>
+</mdclass:DataProcessor>
